@@ -52,6 +52,7 @@ The project demonstrates best practices in:
 ## 📊 Exploratory Data Analysis (EDA)
 
 Key analysis performed:
+
 - Distribution of selling prices
 - Price trends across manufacturing years
 - Transmission type distribution
@@ -86,11 +87,11 @@ The following models were trained and evaluated:
 
 ### 📈 Model Performance (Test Set)
 
-| Model | R² Score |
-|------|----------|
-| Linear Regression | 0.70 |
-| Decision Tree | 0.53 |
-| Random Forest | 0.72 |
+| Model              | R² Score |
+| ------------------ | -------- |
+| Linear Regression  | 0.70     |
+| Decision Tree      | 0.53     |
+| Random Forest      | 0.72     |
 | **XGBoost (Best)** | **0.73** |
 
 ---
@@ -107,6 +108,7 @@ This indicates good generalization and stable performance.
 ## 🧩 Full Pipeline
 
 The final pipeline includes:
+
 - Data preprocessing (scaling + encoding)
 - Best performing model (XGBoost)
 
@@ -118,6 +120,9 @@ The pipeline is saved using `joblib` and can be loaded directly for inference.
 
 ```python
 joblib.dump(full_pipeline, "Model/full_pipeline.pkl")
+```
+
+
 
 ---
 
@@ -125,13 +130,11 @@ joblib.dump(full_pipeline, "Model/full_pipeline.pkl")
 
 Clone the repository
 
-git clone https://github.com/YourUsername/Car-Price-Prediction.git
-
+git clone https://github.com/Mhmd-Waleed/ML-Projects/tree/main/Car_Regression
 
 Install dependencies
 
 pip install -r requirements.txt
-
 
 Run the notebook or script to train the model and generate predictions
 
