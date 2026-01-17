@@ -122,8 +122,6 @@ The pipeline is saved using `joblib` and can be loaded directly for inference.
 joblib.dump(full_pipeline, "Model/full_pipeline.pkl")
 ```
 
-
-
 ---
 
 ## 🚀 How to Run
